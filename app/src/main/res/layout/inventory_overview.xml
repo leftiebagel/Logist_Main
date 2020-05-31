@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/overview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/area_entries"
+        android:layout_width="223dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/over_rightButtons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/userInfo"
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
+            android:text="TextView" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="57dp" />
+
+        <Button
+            android:id="@+id/new_entry"
+            android:layout_width="match_parent"
+            android:layout_height="132dp"
+            android:text="make something" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="57dp" />
+
+        <Button
+            android:id="@+id/rec_list"
+            android:layout_width="match_parent"
+            android:layout_height="132dp"
+            android:text="View Recipes" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="57dp" />
+
+        <Button
+            android:id="@+id/over_back"
+            android:layout_width="match_parent"
+            android:layout_height="104dp"
+            android:text="Back" />
+    </LinearLayout>
+</LinearLayout>
