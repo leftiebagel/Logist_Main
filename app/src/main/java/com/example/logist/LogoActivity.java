@@ -16,6 +16,7 @@ public class LogoActivity extends AppCompatActivity {
         Button loginButton = findViewById(R.id.loginButton);
         loginButton.setOnClickListener(v -> {
             Intent intent = new Intent(this, OverviewActivity.class);
+
             startActivity(intent, savedInstanceState);
         });
     }
